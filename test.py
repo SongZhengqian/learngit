@@ -21,3 +21,8 @@ while n < 10:
     if n % 2 == 0: # 如果n是偶数，执行continue语句
         continue # continue语句会直接继续下一轮循环，后续的print()语句不会执行
     print(n)
+#循环体
+sum=0
+for x in [1,2,3,4,5,6,7,8,9,10]:
+	sum =sum + x 
+print(sum )
